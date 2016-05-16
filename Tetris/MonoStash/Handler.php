@@ -12,7 +12,7 @@ class Handler extends AbstractProcessingHandler
     {
         try {
             HttpRequest::post(getenv('LOGSTASH_HTTP_URL'), $record['formatted'], 'application/json')
-                ->mime('text/html')
+                ->mime('text/plain')
                 ->authenticateWith(getenv('LOGSTASH_HTTP_USER'), getenv('LOGSTASH_HTTP_PWD'))
                 ->send();
         } catch (Exception $e) {
