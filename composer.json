@@ -1,11 +1,11 @@
 {
-  "name": "tetris/monostash",
+  "name": "tetris/monostash-logger",
   "description": "pre-configured monolog logger",
   "keywords": [
     "logger",
     "logstash"
   ],
-  "homepage": "https://github.com/tetris-solutions/monostash",
+  "homepage": "https://github.com/tetris-solutions/monostash-logger",
   "type": "library",
   "license": "MIT",
   "authors": [
