@@ -1,6 +1,6 @@
 {
   "name": "tetris/monostash",
-  "description": "monolog logstash handler & formatter for the http input",
+  "description": "pre-configured monolog logger",
   "require": {
     "monolog/monolog": "^1.19",
     "nategood/httpful": "^0.2.20"
