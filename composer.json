@@ -1,0 +1,19 @@
+{
+  "name": "tetris/monostash",
+  "description": "monolog logstash handler & formatter for the http input",
+  "require": {
+    "monolog/monolog": "^1.19",
+    "nategood/httpful": "^0.2.20"
+  },
+  "authors": [
+    {
+      "name": "Christian Amaral",
+      "email": "darthcas@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Tetris\\MonoStash": "Tetris/MonoStash"
+    }
+  }
+}
