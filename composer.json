@@ -1,16 +1,24 @@
 {
   "name": "tetris/monostash",
   "description": "pre-configured monolog logger",
-  "require": {
-    "monolog/monolog": "^1.19",
-    "nategood/httpful": "^0.2.20"
-  },
+  "keywords": [
+    "logger",
+    "logstash"
+  ],
+  "homepage": "https://github.com/tetris-solutions/monostash",
+  "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Christian Amaral",
       "email": "darthcas@gmail.com"
     }
   ],
+  "require": {
+    "php": ">=7.0.0",
+    "monolog/monolog": "^1.19",
+    "nategood/httpful": "^0.2.20"
+  },
   "autoload": {
     "psr-4": {
       "Tetris\\MonoStash": "Tetris/MonoStash"
