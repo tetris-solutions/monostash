@@ -1,11 +1,11 @@
 {
-  "name": "tetris/monostash-logger",
+  "name": "tetris/monostash",
   "description": "pre-configured monolog logger",
   "keywords": [
     "logger",
     "logstash"
   ],
-  "homepage": "https://github.com/tetris-solutions/monostash-logger",
+  "homepage": "https://github.com/tetris-solutions/monostash",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -21,7 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Tetris\\MonoStash\\": "Tetris/MonoStash"
+      "Tetris\\MonoStash\\": ""
     }
   }
 }
