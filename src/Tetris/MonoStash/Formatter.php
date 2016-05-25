@@ -21,7 +21,7 @@ class Formatter extends NormalizerFormatter
             '@timestamp' => gmdate('c'),
             '@version' => 1,
             'label' => $this->label,
-            'level' => $record['level']
+            'level' => strtolower($record['level_name'])
         ];
 
         if (isset($record['channel'])) {
